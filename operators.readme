@@ -1,0 +1,77 @@
+package projectcom.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+
+//        Basic mathematical operators
+//       int x = 30;
+//       int y = 3;
+//        System.out.println(x * y);
+
+//   int a = 20, b = 10;
+//   int x = 0, y = 0;
+//
+//   System.out.println("Value of a+b; " + (a + b));
+//Relational Operators
+// , ==, !=, <,>=,
+
+//        int a = 20, b = 10;
+//        System.out.println("a == b ;" + (a == b));
+//        same thing as just to know which result belongs
+//        to each operator
+//        System.out.println((a == b));
+//        System.out.println("a < b ;" + (a < b));
+//        System.out.println("a <= b ;" + (a <= b));
+//        System.out.println("a > b ;" + (a > b));
+//        System.out.println("a >= b ;" + (a >= b));
+//        System.out.println("a != b ;" + (a != b));
+
+//Logical operators
+
+//two types of logical "AND"/ "OR"
+//                && is either true or False unless there is 2 true
+//            OR or sign || if one is true then both are true unless both are false.
+
+//   boolean x = true;
+//boolean y = false;
+//boolean z = true;
+//boolean a = false;
+//
+//System.out.println("x and y; " + (x && y));
+//System.out.println("x and z; " + (x && z));
+//System.out.println("x and y; " + (y && z));
+//
+//
+//
+//        System.out.println("x or y; " + (x || y));
+//        System.out.println("x or y; " + (x || y));
+//        System.out.println("x or y; " + (x || y));
+//        System.out.println("x or y; " + (y || a));
+
+//        Control Statements
+//if-else blocks, else if- if more than 3. and answer comes as a boolean either true or false
+//example
+int a = 20, b = 110;
+if (a == b){    v   x
+    System.out.println("a is equal to b");
+}
+else if (a > b) {
+    System.out.println("a is greater than b");
+}
+
+else {
+    System.out.println("a is less than b");
+}
+
+Switch Statement
+example lets say we have a string variable;
+String travelType =
+ String timeTaken;
+
+
+
+
+    }
+}
