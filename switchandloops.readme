@@ -1,0 +1,132 @@
+package projectcom.company;
+
+//import javax.swing.*;
+//import java.sql.SQLOutput;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args)
+    {
+	// write your code here
+//
+//        int a = 30, b = 10;
+//
+//         System.out.println("a == b :" + (a == b));
+
+//
+//        boolean x = true;
+//        boolean y = false;
+//        boolean z = true;
+//        boolean a = false;
+//
+//        System.out.println("x and y :" + (x && y));
+//        System.out.println("x and z :" + (x && z));
+//        System.out.println("y and z :" + (y && z));
+//        System.out.println("y and a :" + (y && a));
+//
+//        System.out.println("x or y :" + (x || y));
+//        System.out.println("x or z :" + (x || z));
+//        System.out.println("y or z :" + (y || z));
+//        System.out.println("y or a :" + (y || a));
+
+//        if else statement
+//         if a is 200 you can see the answer if you change it
+
+//        int a = 20, b = 110;
+//        if (a == b) {
+//
+//            System.out.println("a is equal to b");
+//        }
+//            else if (a > b) {
+//            System.out.println("a is greater than b");
+//        }
+//
+//            else {
+//            System.out.println("a is less than b");
+//        }
+
+//        Switch statement-does the same as Control Statements but in a different way
+//   Example of Switch Statement
+//
+
+        String dayString;
+
+       Scanner in = new Scanner(System.in);
+       System.out.print("Please enter number between 0 and 6: ");
+       String userInput = in.nextLine();
+       int day = Integer.valueOf(userInput);
+
+
+
+
+//        Switch statement with int data type
+        switch (day) {
+
+            case 0:
+                System.out.println("Sunday");
+                break;
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            default:
+                System.out.println("Invalid");
+                break;
+
+        }
+
+
+    }
+}
+================================================================================================================================
+
+package projectcom.company;
+
+
+public class Main
+ {
+
+    public static void main(String[] args) {
+        // write your code here
+//LOOPS
+//       Two types of loops for and while
+
+//Example for "for" loops
+//Start from x = 1, Exit when x becomes greater than 4
+//
+//        for (int x = 1; x <= 4; x++) {
+//            System.out.println("Value of x:" + x);
+//        }
+
+//      while loop
+        int x = 1;
+
+//       Exit when x becomes greater than 4
+        while (x <= 4) {
+
+            System.out.println("Value of x:" + x);
+
+//        Increment the value of x for next iteration
+            x++;
+        }
+    }
+ }
+
+
+
